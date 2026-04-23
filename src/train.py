@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline, make_pipeline
+from sklearn.model_selection import train_test_split
 
 def load_and_validate_data(data_path: str) -> pd.DataFrame:
     """
