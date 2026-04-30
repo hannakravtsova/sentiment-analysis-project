@@ -5,19 +5,8 @@ from joblib import dump
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-<<<<<<< HEAD
-<<<<<<< HEAD
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline, make_pipeline
-from sklearn.model_selection import train_test_split
-=======
-from sklearn.model_selection import train_test_split
-from sklearn.pipeline import Pipeline, make_pipeline
->>>>>>> 7acf1ec (Upload of the whole project)
-=======
-from sklearn.model_selection import train_test_split
-from sklearn.pipeline import Pipeline, make_pipeline
->>>>>>> 015b134 (Upload of the whole project)
 
 def load_and_validate_data(data_path: str) -> pd.DataFrame:
     """
